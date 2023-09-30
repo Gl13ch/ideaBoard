@@ -1,3 +1,45 @@
-h2 {
-  color: purple;
+.header {
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100px;
+  background-color: rgb(23,29,37);
+}
+
+.text {
+  color: rgb(255, 255, 255);
+  top: 100px;
+  position: relative;
+}
+
+.imageHolder {
+  margin: 0px auto;
+  width: 50%;
+  padding: 10px;
+  display: inline-block;
+}
+
+img{
+  width: 500px;
+  height: 500px;
+}
+
+img:hover {
+
+}
+
+.footer{
+  color: rgb(255, 255, 255);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100px;
+  background-color: rgb(23,29,37);
+}
+
+body {
+  background-color: rgb(32,53,82);
 }
